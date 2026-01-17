@@ -10,7 +10,7 @@ A comprehensive comparison of **6 machine learning algorithms**—from classical
 
 **Key Innovation:** Integration of advanced ML models (XGBoost, LightGBM, Neural Networks) with multiple explainability frameworks (SHAP, LIME, Partial Dependence) to create transparent, trustworthy predictions.
 
----
+
 
 ## 💡 Motivation
 
@@ -22,7 +22,7 @@ Machine learning model selection often involves trade-offs between performance, 
 
 **Real-world relevance:** These skills apply to any domain requiring data-driven decision making—from healthcare diagnostics to financial risk assessment to scientific research.
 
----
+
 
 ## 📊 Dataset
 
@@ -43,7 +43,7 @@ Machine learning model selection often involves trade-offs between performance, 
 **Dataset Size:** 1,599 wine samples  
 **Data Quality:** No missing values, all numeric features
 
----
+
 
 ## 🔬 Methodology
 
@@ -102,7 +102,7 @@ Raw Data → Binary Target Creation → Train-Test Split (80/20)
 - **F1-Score** - Harmonic mean (primary metric for model selection)
 - **Confusion Matrix** - Detailed error analysis
 
----
+
 
 ## 📈 Results
 
@@ -142,7 +142,7 @@ Raw Data → Binary Target Creation → Train-Test Split (80/20)
 - Volatile acidity control is critical for quality
 - Sulphate levels have significant but secondary impact
 
----
+
 
 ## 🖼️ Visualizations
 
@@ -156,7 +156,7 @@ The project includes comprehensive visualizations:
 6. **Partial Dependence Plots** - Feature effect curves
 7. **Feature Importance Rankings** - Cross-model comparison
 
----
+
 
 ## 🛠️ Technologies & Tools
 
@@ -176,7 +176,7 @@ The project includes comprehensive visualizations:
 - Jupyter Notebook - Interactive development
 - Git - Version control
 
----
+
 
 ## 📁 Project Structure
 ```
@@ -195,7 +195,7 @@ wine-quality-project/
     └── winequality-red.csv             # Dataset (auto-downloaded)
 ```
 
----
+
 
 ## 🚀 How to Run
 
@@ -227,7 +227,7 @@ python -m notebook
 - XGBoost training: ~15 seconds
 - SHAP calculations: ~60-90 seconds (most time-intensive)
 
----
+
 
 ## 🔍 Key Insights
 
@@ -258,7 +258,7 @@ SHAP and LIME explanations consistently identified:
 
 This alignment with wine chemistry **validates** both the model and the explainability techniques.
 
----
+
 
 ## 📊 Model Selection Guide
 
@@ -271,7 +271,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 | **Resource-Constrained** | Logistic Regression | Minimal compute |
 | **Research/Experimentation** | All 6 models | Comprehensive comparison |
 
----
+
 
 ## ⚠️ Limitations
 
@@ -297,7 +297,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
    - Dataset has natural imbalance (more good wines than bad)
    - Could explore SMOTE, class weights, or other techniques
 
----
+
 
 ## 🔮 Future Work
 
@@ -321,7 +321,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 - Causal inference analysis
 - Interactive Streamlit dashboard for deployment
 
----
+
 
 ## 🎓 Skills Demonstrated
 
@@ -332,7 +332,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 ✅ **Critical Thinking** - Model trade-off analysis, limitation awareness  
 ✅ **Technical Communication** - Documentation, visualization, insights  
 
----
+
 
 ## 👨‍💻 Author
 
@@ -343,7 +343,7 @@ Data Science Enthusiast
 💼 [https://www.linkedin.com/in/anjali-savariya-801a70293/]  
 🐙 [https://github.com/anjalisavariya13205-ux]  
 
----
+
 
 ## 🙏 Acknowledgments
 
@@ -353,7 +353,7 @@ Data Science Enthusiast
 - SHAP and LIME creators for advancing explainable AI
 - Open-source Python community
 
----
+
 
 ## 📚 References
 
@@ -365,12 +365,11 @@ Data Science Enthusiast
 
 4. Chen, T., & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *KDD*.
 
----
+
 
 ## 📄 License
 
 MIT License - See file for details
 
----
 
 *Last Updated: January 2026*
