@@ -1,0 +1,38 @@
+
+======================================================================
+WINE QUALITY CLASSIFICATION - ADVANCED ML + EXPLAINABLE AI
+======================================================================
+
+PROJECT SUMMARY:
+* Dataset: Wine Quality (UCI Repository)
+* Samples: 1599 wines
+* Features: 11 physicochemical properties
+* Task: Binary classification (Good vs Bad wine)
+
+MODELS EVALUATED:
+1. Classical ML (3 models):
+   - Logistic Regression
+   - Support Vector Machine
+   - Random Forest
+
+2. Advanced ML (3 models):
+   - XGBoost (Gradient Boosting)
+   - LightGBM (Microsoft's Fast GB)
+   - Neural Network (Multi-Layer Perceptron)
+
+BEST MODEL: XGBoost
+* F1-Score: 0.8123 (81.23%)
+* Accuracy: 0.8094
+
+EXPLAINABLE AI METHODS APPLIED:
+* SHAP (Global & Local explanations)
+* LIME (Local interpretable approximations)
+* Partial Dependence Plots
+* Feature Importance Analysis
+
+KEY FINDING:
+* Alcohol content is the strongest predictor of wine quality
+* Advanced models show 0.50% improvement over classical
+* Model decisions are explainable and interpretable
+
+======================================================================
