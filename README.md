@@ -4,7 +4,7 @@
 [![Machine Learning](https://img.shields.io/badge/ML-Classification-green.svg)]()
 [![Status](https://img.shields.io/badge/Status-Complete-success.svg)]()
 
-## 🎯 Project Overview
+##  Project Overview
 
 A comprehensive comparison of **6 machine learning algorithms**—from classical methods to advanced ensemble techniques—combined with **Explainable AI (XAI)** for model interpretability. This project demonstrates systematic model evaluation, rigorous experimental methodology, and transparent decision-making essential for data science applications.
 
@@ -12,7 +12,7 @@ A comprehensive comparison of **6 machine learning algorithms**—from classical
 
 
 
-## 💡 Motivation
+##  Motivation
 
 Machine learning model selection often involves trade-offs between performance, interpretability, and computational cost. This project addresses the challenge of:
 - Systematically comparing classical vs. advanced ML approaches
@@ -24,7 +24,7 @@ Machine learning model selection often involves trade-offs between performance, 
 
 
 
-## 📊 Dataset
+##  Dataset
 
 **Source:** UCI Machine Learning Repository - Wine Quality Dataset  
 **Domain:** Chemical analysis and quality assessment  
@@ -45,7 +45,7 @@ Machine learning model selection often involves trade-offs between performance, 
 
 
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing Pipeline
 ```
@@ -104,7 +104,7 @@ Raw Data → Binary Target Creation → Train-Test Split (80/20)
 
 
 
-## 📈 Results
+##  Results
 
 ### Model Performance Comparison
 
@@ -119,32 +119,32 @@ Raw Data → Binary Target Creation → Train-Test Split (80/20)
 
 ### Key Findings
 
-🏆 **Best Model: XGBoost**
+ **Best Model: XGBoost**
 - **F1-Score: 0.8123 (81.23%)**
 - Achieved best balance of precision and recall
 - 0.5% improvement over Random Forest
 - 7.9% improvement over baseline (Logistic Regression)
 
-📊 **Classical vs. Advanced ML:**
+ **Classical vs. Advanced ML:**
 - **Average Classical F1-Score:** 0.7744
 - **Average Advanced F1-Score:** 0.7795
 - Advanced models show 0.5% improvement on average
 - XGBoost specifically shows 4.8% improvement over best classical model
 
-🔬 **Explainability Insights:**
+ **Explainability Insights:**
 - **Most Important Feature:** Alcohol content (confirmed across all models)
 - **SHAP Analysis:** Alcohol > Sulphates > Volatile Acidity (top 3 predictors)
 - High alcohol + low volatile acidity → Strong "Good Wine" prediction
 - Model decisions align with wine chemistry domain knowledge
 
-🎯 **Practical Implications:**
+ **Practical Implications:**
 - Winemakers can focus on alcohol content optimization
 - Volatile acidity control is critical for quality
 - Sulphate levels have significant but secondary impact
 
 
 
-## 🖼️ Visualizations
+## Visualizations
 
 The project includes comprehensive visualizations:
 
@@ -158,7 +158,7 @@ The project includes comprehensive visualizations:
 
 
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 
 **Programming Language:** Python 3.13
 
@@ -178,7 +178,7 @@ The project includes comprehensive visualizations:
 
 
 
-## 📁 Project Structure
+## Project Structure
 ```
 wine-quality-project/
 │
@@ -197,7 +197,7 @@ wine-quality-project/
 
 
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -229,7 +229,7 @@ python -m notebook
 
 
 
-## 🔍 Key Insights
+##  Key Insights
 
 ### Discovery 1: Alcohol as Primary Quality Indicator
 
@@ -260,7 +260,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 
 
 
-## 📊 Model Selection Guide
+##  Model Selection Guide
 
 | Use Case | Recommended Model | Rationale |
 |----------|------------------|-----------|
@@ -273,7 +273,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 
 
 
-## ⚠️ Limitations
+##  Limitations
 
 ### Current Limitations
 
@@ -299,7 +299,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 
 
 
-## 🔮 Future Work
+##  Future Work
 
 ### Planned Enhancements
 
@@ -323,7 +323,7 @@ This alignment with wine chemistry **validates** both the model and the explaina
 
 
 
-## 🎓 Skills Demonstrated
+##  Skills Demonstrated
 
 ✅ **End-to-End ML Pipeline** - Data preprocessing, training, evaluation  
 ✅ **Advanced ML Implementation** - XGBoost, LightGBM, Neural Networks  
@@ -339,13 +339,13 @@ This alignment with wine chemistry **validates** both the model and the explaina
 **[ANJALI SAVARIYA]**  
 Data Science Enthusiast
 
-📧 [anjalisavariya13205@gmail.com]  
-💼 [https://www.linkedin.com/in/anjali-savariya-801a70293/]  
-🐙 [https://github.com/anjalisavariya13205-ux]  
+ [anjalisavariya13205@gmail.com]  
+[https://www.linkedin.com/in/anjali-savariya-801a70293/]  
+ [https://github.com/anjalisavariya13205-ux]  
 
 
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - UCI Machine Learning Repository for the Wine Quality dataset
 - Dr. Paulo Cortez (University of Minho) for dataset creation
@@ -355,7 +355,7 @@ Data Science Enthusiast
 
 
 
-## 📚 References
+##  References
 
 1. Cortez, P., et al. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
 
